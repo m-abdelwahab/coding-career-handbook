@@ -72,19 +72,44 @@ const Hero = () => {
                   src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=211610&amp;theme=light"
                 />
               </a>
-              <a className="mx-2" href="" target="_blank" rel="noreferrer">
+              <a
+                className="mx-2"
+                href="https://www.softwaresessions.com/episodes/learning-in-public/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="w-20" src={SoftwareSession} alt="" />
               </a>
-              <a href="" className="mx-2" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.youtube.com/watch?v=1ayI9j57VlQ"
+                className="mx-2"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="w-20 " src={IncludeJS} alt="" />
               </a>
-              <a href="" className="mx-2" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.youtube.com/watch?v=bcca0VCJe9Q"
+                className="mx-2"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="w-20 " src={ReactEurope} alt="" />
               </a>
-              <a href="" className="mx-2" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.youtube.com/watch?v=QFHO2-8fGtM"
+                className="mx-2"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="w-20 " src={FullStackAcademy} alt="" />
               </a>
-              <a href="" className="mx-2" target="_blank" rel="noreferrer">
+              <a
+                href="https://podcasts.apple.com/us/podcast/newline/id1509124255"
+                className="mx-2"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img className="w-20 " src={NewlinePodcast} alt="" />
               </a>
             </div>

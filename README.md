@@ -14,9 +14,6 @@ Tech Stack :fire:
 - [ ] make  hero icons larger and book cover larger
 - [ ] possibly change pricing section
 - [ ] update "what's in the book" section
-- [ ] update product hunt badge and make sure it works correctly
-- [ ] Make sure website is accessible
-- [ ] optimize for SEO
 - [ ] fix warning: "Tailwind is not purging unused styles because no template paths have been provided." when running `gatsby build`
 
 ## Pricing Section option
