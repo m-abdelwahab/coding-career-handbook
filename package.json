@@ -30,15 +30,11 @@
     "fix:prettier": "prettier --write \"**/*.{css,js,jsx,json,md}\"",
     "fix": "npm run fix:lint && npm run fix:prettier",
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "dev": "npm run develop",
-    "start": "npm run develop",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "devDependencies": {
-    "@tailwindcss/custom-forms": "0.2.1",
     "autoprefixer": "9.8.4",
     "babel-eslint": "10.1.0",
     "cssnano": "4.1.10",

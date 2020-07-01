@@ -1,5 +1,21 @@
 /*! purgecss start ignore */
 @tailwind base;
 @tailwind components;
+
+html {
+  scroll-behavior: smooth;
+  scroll-margin-top: 2rem;
+}
+.underline-effect {
+  background-image: linear-gradient(120deg, #f6e05e 0%, #fffff0 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.underline-effect:hover {
+  background-size: 100% 88%;
+}
+
 /*! purgecss end ignore */
 @tailwind utilities;

@@ -1,43 +1,38 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-import Header from "./header";
-
 function Layout({ children }) {
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
-      <Header />
+      <main>{children}</main>
 
-      <main className="flex-1 w-full max-w-4xl px-4 py-8 mx-auto md:px-8 md:py-16">
-        {children}
-      </main>
-
-      <footer className="bg-blue-700">
-        <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white">
-            Created by{` `}
-            <a
-              className="font-bold no-underline"
-              href="https://bryant.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Taylor Bryant
-            </a>
-          </p>
-
-          <p>
-            <a
-              className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </p>
-        </nav>
-      </footer>
+      <div className="bg-white">
+        <div className="max-w-screen-xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+          <nav className="-mx-5 -my-2 flex flex-wrap justify-center">
+            <div className="px-5 py-2">
+              <a
+                href="mailto:swyx@hey.com"
+                className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              >
+                Contact
+              </a>
+            </div>
+            <div className="px-5 py-2">
+              <a
+                href="https://twitter.com/swyx"
+                className="text-base leading-6 text-gray-500 hover:text-gray-900"
+              >
+                Twitter
+              </a>
+            </div>
+          </nav>
+          <div className="mt-8">
+            <p className="text-center text-base leading-6 text-gray-600">
+              © 2020 All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
