@@ -32,8 +32,7 @@ const Hero = () => {
               Available Now
             </div>
             <h1 className="capitalize mt-1 text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:leading-none sm:text-6xl lg:text-5xl xl:text-6xl">
-              Learn how to build
-              <br className="hidden md:inline" />
+              Learn how to build <br className="hidden md:inline" />
               <span className="underline-effect">an exceptional </span>career
             </h1>
             <h2 className="mt-3 text-base text-black sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
